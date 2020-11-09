@@ -13,7 +13,10 @@
 			"description": "PubMed ID"
 		},
 		"paper-note": {
-			"type: "string"
+			"type": "string"
+		},
+		"paper-title": {
+			"type": "string"
 		}
 	},
 	"contributor": {
