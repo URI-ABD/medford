@@ -1,0 +1,31 @@
+{
+	"paper": {
+		"paper-link": {
+			"type": "string",
+			"description": "Link to paper"
+		},
+		"paper-doi": {
+			"type": "string",
+			"description": "document object identifier"
+		},
+		"paper-pmid": {
+			"type": "string",
+			"description": "PubMed ID"
+		},
+		"paper-note": {
+			"type: "string"
+		}
+	},
+	"contributor": {
+		"contributor-association": {
+			"type": "string"
+		},
+		"contributor-type": {
+			"required": "true",
+			"type": "string"
+		},
+		"contributor-contact": {
+			"type": "string"
+		}
+	}
+}
