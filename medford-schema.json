@@ -1,33 +1,34 @@
 {
 	"paper": {
-		"paper-link": {
+		"type": "string",
+		"description": "paper title",
+		"-link": {
 			"type": "string",
 			"description": "Link to paper"
 		},
-		"paper-doi": {
+		"-doi": {
 			"type": "string",
 			"description": "document object identifier"
 		},
-		"paper-pmid": {
+		"-pmid": {
 			"type": "string",
 			"description": "PubMed ID"
 		},
-		"paper-note": {
-			"type": "string"
-		},
-		"paper-title": {
+		"-note": {
 			"type": "string"
 		}
 	},
 	"contributor": {
-		"contributor-association": {
+		"type": "string",
+		"description": "contributor name",
+		"-association": {
 			"type": "string"
 		},
-		"contributor-type": {
+		"-type": {
 			"required": "true",
 			"type": "string"
 		},
-		"contributor-contact": {
+		"-contact": {
 			"type": "string"
 		}
 	}
